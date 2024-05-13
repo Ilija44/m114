@@ -62,3 +62,38 @@ g. Weil man dafür die 8 Bits brauche, welches aber das Vorzeichen ist
 ## 12
 
 Ich würde die Zahl 0.3333333 als 3333333 speichern, mit E - 7.
+
+# Daten Codieren Alphanumerisch
+### a)
+
+- Textsample1 = ANSI
+- Textsample2 = UTF8
+- Textsample3 = UTF16 BE BOM
+
+### b)
+
+68
+
+### c)
+
+- Textsample1 -> ANSI => 68 bytes = 1 Byte pro Zeichen
+
+- Textsample2 -> UTF8 => 71 bytes 1 Byte pro ASCII-Zeichen + mehr als 1 Byte pro nicht ASCII-Zeichen
+
+- Textsample3 -> UTF16 BE BOM => 138 bytes = 2 Bytes für die meisten Zeichen + 2 Bytes am Anfang für BOM
+
+### d)
+
+ä, €
+
+### e)
+
+BE (Big-Endian) = Das höchstwertigste Byte wird zuerst gespeichert oder übertragen.
+
+LE (Little-Endian) = Das niederwertigste Byte wird zuerst gespeichert oder übertragen.
+
+### f)
+
+Wenn die Datei ausschliesslich ASCII-Zeichen enthält, bleibt sie unverändert, da diese Zeichen in UTF-8 identisch sind.
+
+Falls die Datei jedoch Zeichen enthält, die nicht im ASCII-Zeichensatz enthalten sind, aber in UTF-8 vorkommen, werden diese Zeichen nur korrekt dargestellt, wenn sie in UTF-8 codiert sind.
