@@ -20,25 +20,37 @@ Mit 5 Bit kann man eine Linie von Pixeln im Bild darstellen. Es könnte 1 Bit od
 
 1Blau
 
-## 4. RLC
-Weiß: 0, Schwarz: 1
-0 0 0 0 0 0 0 0
-1 1 1 1 1 1 1 0
-0 0 0 0 0 0 0 0
-1 1 1 1 1 1 1 1
-0 0 0 0 1 1 1 1
-1 1 1 1 1 1 1 1
-0 0 0 0 0 0 0 0
-1 1 1 1 1 1 1 0
+## 4. RLC:
+Sie erhalten diesen RL-Code: 010100011110010010010010010010010010010110010110010010010010010010010010001 
 
-⬜⬜⬜⬜⬜⬛⬛⬜  
-⬛⬛⬛⬛⬛⬛⬛⬜  
-⬛⬜⬜⬜⬜⬛⬛⬜  
-⬜⬜⬜⬜⬛⬜⬜⬜  
-⬜⬜⬜⬜⬛⬜⬜⬜  
-⬜⬜⬜⬜⬛⬜⬜⬜  
-⬜⬜⬜⬜⬛⬜⬜⬜  
-⬜⬜⬜⬜⬛⬜⬛⬛
+```
+010 100 011 110 010 010 010 010 010 010 010 010 010 110 010 110 010 010 010 010 010 010 010 010 001
+ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+ 2   4   3   6   2   2   2   2   2   2   2   2   2   6   2   6   2   2   2   2   2   2   2   2   1
+ |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+ W   S   W   S   W   S   W   S   W   S   W   S   W   S   W   S   W   S   W   S   W   S   W   S   W
+
+WWSSSSWW
+WSSSSSSW
+WSSWWSSW
+WSSWWSSW
+WSSSSSSW
+WSSSSSSW
+WSSWWSSW
+WSSWWSSW
+
+
+  XXXX
+ XXXXXX
+ XX  XX
+ XX  XX
+ XXXXXX
+ XXXXXX
+ XX  XX
+ XX  XX
+```
+
+Es wird ein 'A' dargestellt.
 
 # 8.
 ## Andere Verfahren
