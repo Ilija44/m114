@@ -52,6 +52,36 @@ WSSWWSSW
 
 Es wird ein 'A' dargestellt.
 
+## 5. LZW-Verfahren
+
+### a. 
+
+| Zeichenkette | Gefunden | Gespeichert | Eintrag | Nummer |
+| ------------ | -------- | ----------- | ------- | ------ |
+| ananas       | a        | a           | an      | 256    |
+| nanas        | n        | n           | na      | 257    |
+| anas         | a        | 256         | ana     | 258    |
+| as           | a        | a           | as      | -      |
+
+ANANAS = an256as
+
+### b. 
+
+| Zeichenkette  | Gefunden | Ausgabe | Eintrag | Nummer |
+| ------------- | -------- | ------- | ------- | ------ |
+| erdbe256kl260 | e        | e       | -       | -      |
+| rdbe256kl260  | r        | r       | er      | 256    |
+| dbe256kl260   | d        | d       | rd      | 257    |
+| be256kl260    | b        | b       | db      | 258    |
+| e256kl260     | e        | e       | be      | 259    |
+| 256kl260      | e        | er      | ee      | 260    |
+| kl260         | k        | k       | ek      | 261    |
+| l260          | l        | l       | kl      | 262    |
+| 260           | e        | ee      | le      | 263    |
+
+erdbe256kl260 = erdbeerdklee
+
+
 # 8.
 ## Andere Verfahren
  - Lempel-Ziv-Welch (LZW)
