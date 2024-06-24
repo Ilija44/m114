@@ -178,4 +178,11 @@ LOUIS XIV
 - Die verschlüsselte und signierte Datei per E-Mail an den Kommunikationspartner senden.
 - Kommunikationspartner sollte die Datei erfolgreich entschlüsseln und die Signatur verifizieren können.
 
+  ### Bilder
+![image](https://github.com/Ilija44/m114/assets/113606362/fd6a1b05-04eb-4f7a-9709-9020652e801e)
+![image](https://github.com/Ilija44/m114/assets/113606362/f2bc7775-a7aa-456b-add9-8676a09ebadc)
+![image](https://github.com/Ilija44/m114/assets/113606362/fc6eb97c-d311-44a7-818c-9e90a429fd72)
+
+
+
 
