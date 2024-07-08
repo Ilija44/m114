@@ -110,6 +110,15 @@ LOUIS XIV
 
 - **Problem:** Verschlüsselte E-Mails können nicht einfach archiviert werden, da der Inhalt ohne den Schlüssel unzugänglich ist.
 
+### Aufgabe 14 
+Beim Aufruf einer sicheren Webseite (HTTPS) wird eine verschlüsselte Verbindung zwischen dem Client und dem Server hergestellt. Der Ablauf beim TLS-Protokoll beinhaltet Handshake, Authentifizierung, Schlüsselaustausch und verschlüsselte Datenübertragung. Zertifikate kommen ins Spiel, um die Identität des Servers zu authentifizieren und die Verschlüsselungsschlüssel zu übermitteln.
+
+### Aufgabe 15
+S/MIME steht für Secure/Multipurpose Internet Mail Extensions und ist ein Standard zur sicheren Übertragung von E-Mails mittels Kryptographie.
+
+### Aufgabe 16
+Das Problem beim Archivieren verschlüsselter geschäftlicher E-Mails besteht darin, dass der Inhalt der E-Mails nicht ohne den entsprechenden privaten Schlüssel entschlüsselt werden kann. Eine mögliche Lösung wäre die Archivierung von E-Mails vor der Verschlüsselung oder das Management der privaten Schlüssel zusammen mit den verschlüsselten E-Mails.
+
  ## PGP und OpenPGP
 
 ## Durchführung der Aufgaben mit Gpg4win/Kleopatra
